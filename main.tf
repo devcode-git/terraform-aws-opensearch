@@ -15,7 +15,6 @@ resource "random_password" "password" {
   length      = 32
   special     = false
   min_numeric = 1
-  min_special = 1
   min_upper   = 1
 }
 
